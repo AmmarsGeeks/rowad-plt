@@ -1,0 +1,130 @@
+
+
+/*--------------------FOOTER----------------------*/
+
+.trendticket {
+    background: #091732;
+    width: 100%;
+    padding: 2rem 0;
+    overflow-y: hidden !important;
+    overflow: hidden !important;
+}
+
+
+.flex_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_data {
+    max-height: 11.5rem;
+}
+
+ul.ul_footer {
+    display: flex;
+    align-items: center;
+    
+}
+
+ul.ul_footer li {
+    margin: 0 0.55rem;
+}
+
+.tajwal_font {
+    
+}
+
+ul.ul_footer li a {
+    font-size: 14px;
+    color: #fff;
+    font-family: 400;
+    
+    transition: all .5s ease;
+}
+ul.ul_footer li a:hover {
+    color: #ff7f50;
+}
+
+.footer_btn {
+    padding: 0.4rem 2.2rem !important;
+    border: 1px solid #fff !important;
+    background-color: transparent !important;
+    border-radius: 4rem !important;
+    transition: all .5s ease;
+    font-size: 18px !important;
+    color: #fff !important;
+    
+    transition: all 0.4s ease-in;
+}
+
+.footer_btn:hover {
+    background: #fff !important;
+    color: #010101 !important;
+}
+
+.flex_row_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.small_icon {
+    margin: 0 6px;
+    max-height: 1.5rem;
+}
+
+.footer_logo {
+    max-height: 5.5rem;
+    cursor: pointer;
+}
+
+.footer_icon {
+    padding-top: 8px;
+    max-height: 2rem;
+}
+.footer_btn:hover {
+    background: #fff;
+    color: #ff7f50;
+}
+
+.copyright_footer {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    
+}
+
+@media (max-width: 850px) {
+    .flex_footer {
+        flex-direction: column ;
+    }
+    .action_footer {
+        margin: 0.8rem 0;
+    }
+    ul.ul_footer li a  {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer_btn {
+        padding: 0.5rem 1.8rem !important;
+        border: 1px solid #fff !important;
+        background-color: transparent !important;
+        border-radius: 4rem !important;
+        transition: all .5s ease;
+        font-size: 14px !important;
+        color: #fff !important;
+        
+        transition: all 0.4s ease-in;
+    }
+
+    ul.ul_footer li {
+        margin:  0 0.30rem;
+    }
+    ul.ul_footer li a  {
+        font-size: 11px;
+    }
+   
+}

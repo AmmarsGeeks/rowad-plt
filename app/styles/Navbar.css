@@ -1,0 +1,217 @@
+.progress-bar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px; 
+    background-color: #4928CF; 
+    z-index: 999; 
+  }
+  
+  /* CSS for the progress bar itself */
+  .progress-bar {
+    height: 100%;
+    background-color: #ff7f50;
+    transition: width 0.3s ease; 
+  }
+  
+  .progress-bar {
+    border-radius: 2px;
+  }
+  
+
+  .progress-bar {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.navbar_statisic  {
+    z-index: 9291 !important;
+    max-height: 110px;
+    padding: 0.5rem 0;
+}
+
+.nav_color_scroll  {
+    background: #FBFBFC;
+}
+
+.nav_color_static  {
+    background: #091732;
+}
+
+.navbar_statisic div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9291 !important;
+}
+
+.navbar_statisic  .mobile_menu {
+    display: none ;
+}
+
+.logo_div .logo_navbar {
+    max-height: 4.2rem;
+    cursor: pointer;
+}
+
+.list_div .flex_list {
+    display: flex;
+    align-self: center;
+}
+.flex_list li {
+    margin: 0 0.48rem;
+}
+
+.flex_list li a {
+    font-size: 14px;
+    color: #fff;
+  
+}
+
+.flex_list li a.active , .flex_list li a:hover  {
+    border-bottom: 2px solid #ff7f50;
+    padding-bottom: 5px;
+}
+
+.list_div .flex_scroll {
+    display: flex;
+    align-self: center;
+}
+.flex_scroll li {
+    margin: 0 0.48rem;
+}
+
+.flex_scroll li a {
+    font-size: 14px;
+    color: #111518;
+ 
+  
+}
+
+.flex_scroll li a.active , .flex_scroll li a:hover  {
+    border-bottom: 2px solid #ff7f50;
+    padding-bottom: 5px;
+}
+
+.nav_btn {
+    border-radius: 25px;
+    background: #ff7f50 ;
+    color: #fff;
+    padding: 0.3rem 1.3rem;
+    font-size: 14px;
+   
+    transition: all 0.4s ease-in;
+}
+
+.nav_btn:hover {
+    background: #fff !important;
+    color: #ff7f50 !important;
+}
+
+.dropdown_menu_navbar {
+    position: fixed;
+    top: 0;
+    left: -80%;
+    width: 30%;
+    height: 100vh;
+    border-radius: 20px;
+    background: #fff;
+    padding: 0.5rem 2.5rem;
+    padding-top: 5rem;
+    box-shadow: 0 4px 22px rgba(0,0,0,0.2);
+    z-index: 912;
+    transition: all 0.4s linear;
+
+}
+
+.dropdown_menu_navbar.active {
+   
+    top: 0;
+    left: 0;
+}
+.close_icon {
+    max-height: 1.5rem;
+    cursor: pointer;
+}
+
+.ul_list_dropdown li {
+    margin: 2.5rem 0;
+}
+
+.ul_list_dropdown li a {
+    font-size: 18px;
+    color: #000;
+ 
+}
+.ul_list_dropdown li a:hover {
+    border-bottom: 2px solid #ff7f50;
+    padding-bottom: 5px;
+}
+.menu_icon_div {
+    background: #fff;
+    padding: 10px;
+    border-radius: 250px;
+    max-height: 3.5rem;
+    text-align: center;
+}
+
+
+
+.mobile_menu_drawer {
+    max-height: 2.8rem;
+}
+
+
+
+
+@media (max-width: 950px) {
+    .logo_div .logo_navbar {
+        max-height: 3.8rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .navbar_statisic .list_div {
+        display: none;
+    }
+    .ul_list_dropdown li a {
+        font-size: 16px;
+    }
+    .navbar_statisic   .mobile_menu {
+        display: initial;
+    }
+
+    .navbar_statisic  .action_div {
+        display: none;
+    }
+    
+   
+    
+}
+
+@media (max-width: 600px) { 
+    .dropdown_menu_navbar {
+      
+        width: 45%;
+        padding: 0.3rem 0.8rem;
+        padding-top: 3.5rem;
+    }
+    .nav_btn {
+        padding: 0.2rem 0.9rem;
+      font-size: 14px; 
+    }
+    .ul_list_dropdown li a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) { 
+    .dropdown_menu_navbar {
+      
+        width: 60%;
+       }
+       .nav_btn {
+        padding: 0.2rem 0.4rem;
+      font-size: 14px; 
+    }
+}

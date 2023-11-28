@@ -1,0 +1,141 @@
+/* 
+
+COLORS : 
+
+ORANGE : #ff7f50
+
+BLUE : #091732
+
+LIGHT BLUE : #1e2b43
+
+WHITE : #ffffff 
+
+
+GOOGLE FONTS : 
+
+font-family: 'Almarai', sans-serif;
+font-family: 'Jomhuria', serif;
+
+*/
+
+.color_orange {
+    color : #ff7f50
+}
+
+.box_headline {
+    background: #091732;
+}
+
+.our_branch_section {
+    background: #091732;
+}
+
+.grid_data_analytic {
+    width: 100%;
+    display: grid;
+   
+    grid-gap: 2.5rem;
+}
+
+.d-grid {
+    display: grid;
+  
+}
+
+.grid_four {
+    grid-template-columns: repeat( 4 , 1fr);
+    grid-gap: 2.5rem;
+}
+
+@media (max-width: 900px) {
+    .grid_four {
+        grid-template-columns: repeat( 2 , 1fr);
+        grid-gap: 2.5rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .grid_four {
+        grid-template-columns: repeat( 1 , 1fr);
+        grid-gap: 2.5rem;
+    }
+}
+
+.hero_headline_sm {
+    font-size: 38px;
+    color: #fff;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 750px) {
+
+    .hero_headline_sm {
+        font-size: 29px;
+        line-height: 35px;
+    }
+
+    .subheadline_hero {
+        margin-top: 6px;
+    }
+    .banner_flex .flex-row {
+      flex-direction: column !important;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+   
+    .image_div_heroarea img {
+        max-height: 24rem;
+    }
+    .hero_headline {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .subheadline_hero {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .flex_subscripe {
+      flex-direction: column;
+    }
+    .flex_subscripe .input_btn {
+        margin-top: 0.8rem;
+    }
+
+    .hero_headline_sm {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .image_div_heroarea {
+        margin-top: 2.5rem;
+    }
+    .info_div_heroarea {
+        padding-top: 0.8rem;
+    }
+}
+
+.flex_subscripe {
+    display: flex;
+    align-items: center;
+}
+
+
+.input_form {
+    border: 1px solid #0101013a;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 2.9rem;
+    padding: 0.4rem 2.2rem;
+    min-width: 300px;
+    text-align: right;
+    color: #010101;
+    font-family: 'Almarai';
+}

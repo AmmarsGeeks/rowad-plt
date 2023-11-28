@@ -1,0 +1,21 @@
+
+.who_we_are_section {
+    background-color: #1e2b43;
+}
+
+.box_orange {
+    background: #ff7f50;
+}
+
+.d-who {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 767px) { 
+    .d-who {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
